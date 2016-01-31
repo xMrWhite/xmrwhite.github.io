@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <meta property="og:url" content="http://www.adamgordon.ca/">
+  <meta property="og:title" content="Adam Gordon">
+  <meta property="og:image" content="http://www.adamgordon.ca/img/adam_head.jpg">
+  <meta property="og:description" content="Adam Gordon's Homepage">
+  <meta property="og:type" content="profile">
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dosis:400,500' rel='stylesheet' type='text/css'>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+    
+  <script src="js/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+  <![endif]-->
+</head>
