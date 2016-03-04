@@ -238,9 +238,14 @@ nav {
   .goal > a > div {
     padding: 1em;
   }
+  .goal img {
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+  }
 
     .goal p {
-      min-height: 10em;
+      min-height: 11em;
     }
 
     .goal a {
