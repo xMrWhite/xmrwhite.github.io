@@ -63,7 +63,7 @@ header {
   }
 
   #cover {
-    background: url(../img/adam.jpg) center center / cover;
+    background: url(../img/adam_cover.jpg) center center / cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -235,12 +235,17 @@ nav {
     width: 20%;
   }
 
-  .goal > div {
+  .goal > a > div {
     padding: 1em;
   }
 
     .goal p {
-      min-height: 5em;
+      min-height: 10em;
+    }
+
+    .goal a {
+    text-decoration:none;
+    color:inherit
     }
 
 #vote {
