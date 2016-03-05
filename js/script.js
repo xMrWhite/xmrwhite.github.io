@@ -26,7 +26,6 @@ $(document).ready(function() {
   window.onresize = stickyNav;
 
   $('header').click(function() { scrollTo('nav', 0); });
-  $('#more').click(function() { scrollTo('nav', 0); });
   $('#title').click(function() { scrollTo('body', 0); });
   $('#navabout').click(function() {
     if (scrollTo <= window.innerHeight) scrollTo('nav', 0);
