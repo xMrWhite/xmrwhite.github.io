@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="adam-gordon">Adam Gordon</h1>
+<hr />
+<blockquote>
+<p>&quot;Deploy or Die&quot; – <em>Joi Ito, Head of the MIT Media Lab</em></p>
+</blockquote>
+<hr />
+<h2 id="experience">Experience</h2>
+<p><strong>Full Stack Engineer - Freelance</strong></p>
+<p>2015 – Present</p>
+<p>I have been working as a full stack engineer since 2015. One of my projects is http://eraco.com where I created a continuous improvement work-flow that automatically builds and deploys multiple branches from Github for testing and validation.</p>
+<p><strong>Software Consultant - Agnico Eagle Mines Ltd</strong></p>
+<p>2012 – Present</p>
+<p>I work for AEM as a Software Consultant. Working primarily with C# and SharePoint 2010 to maintain and add to the corporate intranet system, with a focus on data analysis and visualization.</p>
+<p><strong>Technical Consultant - OLPC Canada</strong></p>
+<p>2012 – Present</p>
+<p>I work for OLPC Canada as a system administrator, web developer, and consultant. OLPC Canada strives to empower Aboriginal youth to play an active role in their own education through access to learning centred technology. Canada’s first National One Laptop per Child program, OLPC Canada has provided more than 3600 laptops to Aboriginal youth 6-12 years of age in rural, remote and urban communities in 7 provinces and 2 territories. http://www.olpccanada.com/</p>
+<p><strong>Deployment Engineer - Ntugi School OLPC Implementation</strong></p>
+<p>2008 – 2012</p>
+<p>I have experience working as a system administrator for a school implementation of 100 OLPC laptops in the Isiolo district of northeast Kenya. My job includes fixing broken machines, maintaining updates, and finding and installing specialized educational software that the students can use to learn. I also worked with local solar energy companies to design and install power in the school.</p>
+<p><strong>Technical Consultant - Horizons Summer Media Program</strong></p>
+<p>2006 – 2009</p>
+<p>I worked for the Horizons summer school program for inner city children as both a tutor for the students and as IT support for the teachers and students during the Digital Media unit. https://bluenet.ucc.on.ca/horizons</p>
+<h2 id="technical-experience">Technical Experience</h2>
+<dl>
+<dt>CSSU</dt>
+<dd><p>I'm the current treasurer of the Computer Science Student Union at U of T</p>
+<ul>
+<li>I'm one of the maintainers of http://cssu.ca which uses https://nightli.es/ to bring dynamic content to a static site.</li>
+<li>I'm currently working with a small team to create a private cloud based on OpenStack to offer hosting and compute services to student groups.</li>
+</ul>
+</dd>
+<dt>Programming Languages</dt>
+<dd><strong>Python:</strong> I love the design pattern of Python, especially the Flask project and SQLAlchemy. I'm always wondering why more frameworks don't have this level of commitment to DRY and KISS.
+</dd>
+<dd><p><strong>C#:</strong> I've spent allot of time working with C# on SharePoint and other intranet applications that integrate with AD. The power of Visual Studio to deploy and test code makes development smoother and faster. I'm excited about Microsoft's push towards open source and integrating Linux tools into Windows and what that means for the future of the Windows platform.</p>
+</dd>
+<dd><p><strong>Ruby:</strong> I started like most people with Ruby on Rails, using it at hackathons for rapid development. I'm currently partial to the Sinatra project because it reminds me of Flask.</p>
+</dd>
+<dd><p><strong>JavaScript:</strong> I've worked with AngularJS and NodeJS on small projects and I like the ability to offload logic to the client to reduce traffic and provide a richer experience.</p>
+</dd>
+<dd><p><strong>Go:</strong> I'm interested in where the Go language is going and of my favourite projects is Ethereum, decentralaized platform that provieds a way to trust an application to always finish it's task.</p>
+</dd>
+<dd><p>Basic knowledge of <strong>C</strong>, <strong>Java</strong>, <strong>Haskell</strong>, <strong>SQL</strong></p>
+</dd>
+</dl>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2010-2016 (expected)</dt>
+<dd><p><strong>HBSc of Computer Science; University of Toronto</strong></p>
+<p><em>Computer Science Specialist; Focus in Computer Systems</em></p>
+</dd>
+<dt>Class of 2010</dt>
+<dd><strong>International Baccalaureate Diploma Program; Upper Canada College</strong>
+</dd>
+</dl>
+<blockquote>
+<p><script type="text/javascript">
+<!--
+h='&#x61;&#100;&#x61;&#x6d;&#x67;&#x6f;&#114;&#100;&#x6f;&#110;&#46;&#x63;&#x61;';a='&#64;';n='&#x61;&#x67;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#x61;&#x67;&#32;&#x61;&#116;&#32;&#x61;&#100;&#x61;&#x6d;&#x67;&#x6f;&#114;&#100;&#x6f;&#110;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x61;</noscript> • +1 416 509 3623<br />
+407 - 168 King Street East - Toronto, Ontario</p>
+</blockquote>
+</body>
+</html>
